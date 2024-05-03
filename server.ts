@@ -88,9 +88,9 @@ export function app(): express.Express {
           description:
             'Find like minded male or female unvaccinated organic humans!',
           image:
-            'https://www.organic.dating/assets/images/landingpage/profile.png',
-          site: 'https://www.organic.dating/',
-          url: 'https://www.organic.dating' + params,
+            'https://www.pussy.ventures/assets/images/landingpage/profile.png',
+          site: 'https://www.pussy.ventures/',
+          url: 'https://www.pussy.ventures' + params,
           keywords: 'Pussy.Ventures',
         };
         if (
