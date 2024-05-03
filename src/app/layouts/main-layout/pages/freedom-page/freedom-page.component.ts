@@ -29,7 +29,7 @@ export class FreedomPageComponent {
 
     this.getPages();
     const data = {
-      title: 'Pussy Ventures Promote You!',
+      title: 'Pussy Ventures Girl PR!',
       url: `${location.href}`,
       description: '',
     };

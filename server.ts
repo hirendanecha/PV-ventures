@@ -88,14 +88,14 @@ export function app(): express.Express {
           description:
             'Find like minded male or female unvaccinated organic humans!',
           image:
-            'https://www.organic.dating/assets/images/landingpage/OD-default-profile.png',
+            'https://www.organic.dating/assets/images/landingpage/profile.png',
           site: 'https://www.organic.dating/',
           url: 'https://www.organic.dating' + params,
           keywords: 'Pussy.Ventures',
         };
         if (
-          params.indexOf('connection/') > -1 ||
-          params.indexOf('promote-you/') > -1
+          params.indexOf('shop-girls/') > -1 ||
+          params.indexOf('girl-pr/') > -1
         ) {
           let id = params.split('/');
           id = id[id.length - 1];
@@ -160,7 +160,7 @@ export function app(): express.Express {
               post?.thumbfilename ||
               post?.metaimage ||
               post?.imageUrl ||
-              'https://www.organic.dating/assets/images/landingpage/OD-default-profile.png',
+              'https://www.organic.dating/assets/images/landingpage/profile.png',
           };
           seo.title = talent.name;
           seo.description = strip_html_tags(talent.description);
