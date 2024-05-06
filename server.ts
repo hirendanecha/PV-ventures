@@ -88,7 +88,7 @@ export function app(): express.Express {
           description:
             'Find like minded male or female unvaccinated organic humans!',
           image:
-            'https://www.pussy.ventures/assets/images/landingpage/profile.png',
+            'https://www.pussy.ventures/assets/images/landingpage/Pussy-Ventures-Square-Logo.png',
           site: 'https://www.pussy.ventures/',
           url: 'https://www.pussy.ventures' + params,
           keywords: 'Pussy.Ventures',
@@ -160,7 +160,7 @@ export function app(): express.Express {
               post?.thumbfilename ||
               post?.metaimage ||
               post?.imageUrl ||
-              'https://www.pussy.ventures/assets/images/landingpage/profile.png',
+              'https://www.pussy.ventures/assets/images/landingpage/Pussy-Ventures-Square-Logo.png',
           };
           seo.title = talent.name;
           seo.description = strip_html_tags(talent.description);
