@@ -13,6 +13,6 @@ export const environment = {
   webUrl: webUrl,
   tubeUrl: tubeUrl,
   domain: '.pussy.ventures',
-  siteKey: '0x4AAAAAAATU1CBk_lvwGxIy',
-  secretKey: '0x4AAAAAAATU1GanFiWSflL_7a_cnZt_SKM',
+  siteKey: '0x4AAAAAAAZb06HM1GQ8pBPT',
+  secretKey: '0x4AAAAAAAZb04aDUIBALahr1N5XCD_bcTQ',
 };
