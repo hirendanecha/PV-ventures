@@ -160,7 +160,7 @@ export function app(): express.Express {
               post?.thumbfilename ||
               post?.metaimage ||
               post?.imageUrl ||
-              'https://www.organic.dating/assets/images/landingpage/profile.png',
+              'https://www.pussy.ventures/assets/images/landingpage/profile.png',
           };
           seo.title = talent.name;
           seo.description = strip_html_tags(talent.description);
