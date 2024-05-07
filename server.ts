@@ -84,14 +84,14 @@ export function app(): express.Express {
         }
         const params = req.params[0];
         var seo: any = {
-          title: 'Pussy.Ventures',
+          title: 'Pussy.ventures',
           description:
-            'Find like minded male or female unvaccinated organic humans!',
+            'Live Girls! Talk One-on-One Face-to-Face',
           image:
-            'https://www.pussy.ventures/assets/images/landingpage/Pussy-Ventures-Square-Logo.png',
+            'https://www.pussy.ventures/assets/images/landingpage/profile.png',
           site: 'https://www.pussy.ventures/',
           url: 'https://www.pussy.ventures' + params,
-          keywords: 'Pussy.Ventures',
+          keywords: 'Pussy.ventures',
         };
         if (
           params.indexOf('shop-girls/') > -1 ||
