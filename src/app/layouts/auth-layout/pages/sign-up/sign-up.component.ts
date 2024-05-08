@@ -79,9 +79,9 @@ export class SignUpComponent implements OnInit, AfterViewInit {
   ) {
     const data = {
       title: 'Pussy.ventures Registration',
-      url: `${environment.webUrl}sign-up`,
+      url: `${environment.webUrl}register`,
       description: 'Registration page',
-      image: `${environment.webUrl}assets/images/landingpage/Healing-Tube-Logo.png`,
+      image: `${environment.webUrl}assets/images/avtar/placeholder-user.png`,
     };
     this.seoService.updateSeoMetaData(data);
     this.theme = localStorage.getItem('theme');
