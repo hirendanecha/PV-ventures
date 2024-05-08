@@ -15,7 +15,7 @@ import { ToastService } from './@shared/services/toast.service';
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
-  title = 'Pussy Ventures';
+  title = 'Pussy.ventures';
   showButton = false;
   tab: any;
 

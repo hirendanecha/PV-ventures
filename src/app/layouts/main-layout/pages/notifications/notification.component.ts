@@ -23,7 +23,7 @@ export class NotificationsComponent {
     private socketService: SocketService
   ) { 
     const data = {
-      title: 'Pussy Ventures Notification',
+      title: 'Pussy.ventures Notification',
       url: `${window.location.href}`,
       description: '',
     };

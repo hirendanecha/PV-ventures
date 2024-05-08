@@ -24,7 +24,7 @@ export class SettingsComponent {
     private seoService:SeoService
   ) {
     const data = {
-      title: 'Pussy Ventures Settings',
+      title: 'Pussy.ventures Settings',
       url: `${location.href}`,
       description: '',
     };

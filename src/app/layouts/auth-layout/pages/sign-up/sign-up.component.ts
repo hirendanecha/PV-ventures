@@ -78,7 +78,7 @@ export class SignUpComponent implements OnInit, AfterViewInit {
     private tokenStorageService: TokenStorageService
   ) {
     const data = {
-      title: 'Pussy Ventures Registration',
+      title: 'Pussy.ventures Registration',
       url: `${environment.webUrl}sign-up`,
       description: 'Registration page',
       image: `${environment.webUrl}assets/images/landingpage/Healing-Tube-Logo.png`,

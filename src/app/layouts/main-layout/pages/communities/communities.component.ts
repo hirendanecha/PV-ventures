@@ -37,7 +37,7 @@ export class CommunitiesComponent {
     }
     // this.getCommunities();
     const data = {
-      title: 'Pussy Ventures Connection',
+      title: 'Pussy.ventures Connection',
       url: `${window.location.href}`,
       description: '',
     };
