@@ -15,4 +15,7 @@ export const environment = {
   domain: '.pussy.ventures',
   siteKey: '0x4AAAAAAAZb06HM1GQ8pBPT',
   secretKey: '0x4AAAAAAAZb04aDUIBALahr1N5XCD_bcTQ',
+  qrLink: `${webUrl}settings/edit-profile/`,
+  EncryptIV: 8625401029409790,
+  EncryptKey: 8625401029409790,
 };
