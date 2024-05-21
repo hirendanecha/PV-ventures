@@ -1,6 +1,6 @@
 <div class="row d-flex justify-content-center">
   <div class="col-12 col-lg-8 mt-5">
-<div class="d-center">
+<div class="d-center" *ngIf="dataList.lenth">
   <div class="carousel slide position-relative" data-ride="carousel" [attr.data-interval]="false">
     <div class="carousel-inner" *ngFor="let picture of dataList; let i = index">
       <div class="carousel-item" [ngClass]="{'active': currentImageIndex === i}">
@@ -43,6 +43,7 @@
   </div>
 </div>
 
+
   </div>
   <!-- <div class="col-12 col-lg-3">
     <div class="single-box py-5 mt-5">
@@ -56,3 +57,9 @@
     </div>
   </div> -->
 </div>
+<ng-container *ngIf="!dataList.length">
+  <app-inline-loader *ngIf="isPageLoader"/>
+  <ng-container *ngIf="!isPageLoader">
+    <span>No Users Found</span>
+  </ng-container>
+</ng-container>
