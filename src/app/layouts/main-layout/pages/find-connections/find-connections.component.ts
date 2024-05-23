@@ -21,6 +21,7 @@ export class ConnectionsComponent implements OnInit {
   profileList: any = [];
   currentIndex: number = 0;
   message: string = '';
+  isPageLoader:boolean= false;
   pagination: any = {
     page: 0,
     limit: 10,
@@ -95,7 +96,7 @@ export class ConnectionsComponent implements OnInit {
     if (!profile.profilePictures || profile.profilePictures.length === 0) {
       profile.profilePictures = [
         {
-          imageUrl: '/assets/images/profile-cover.png',
+          imageUrl: '/assets/images/cover.png',
         },
       ];
     }
